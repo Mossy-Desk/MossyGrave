@@ -2,10 +2,6 @@
    APP SHELL
    ============================================ */
 
-/* Whole-page/whole-window opt-ins — each applies to whatever
-   container you put the class on, not just <body>. Nothing here
-   is automatic; add only what you want. */
-
 /* ===== BASE THEME ===== */
 /* Font, colors, background. Add once on your root element, e.g.
    <body class="app">. */
@@ -16,7 +12,7 @@
   background-color: var(--mossy-cream);
   color: var(--mossy-night);
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; 
 }
 
 /* ===== SELECTION ===== */

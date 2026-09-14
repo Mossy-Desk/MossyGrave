@@ -1,0 +1,24 @@
+/* ============================================
+   LAYOUT
+   ============================================ */
+
+/* Side-by-side shell: a sidebar next to a content pane, as two
+   plain flex children. Neither needs a modifier class to know
+   the other exists.
+   <div class="layout">
+     <aside class="sidebar">...</aside>
+     <div class="layout-main">...</div>
+   </div> */
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Content pane next to the sidebar. Owns its own spacing. */
+.layout-main {
+  flex: 1;
+  min-width: 0;
+  padding: var(--content-spacing);
+  box-sizing: border-box;
+}
