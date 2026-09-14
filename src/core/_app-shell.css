@@ -13,8 +13,8 @@
   font-family: var(--font-body);
   font-size: 1rem;
   line-height: var(--line-height-base);
-  background-color: var(--mossy-grey-4);
-  color: var(--mossy-brown-1);
+  background-color: var(--mossy-grey-9);
+  color: var(--mossy-orange-0);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -23,7 +23,7 @@
 /* Apply to any container, e.g. <body class="selection"> */
 .selection::selection {
   background: var(--mossy-green-3);
-  color: var(--mossy-grey-5);
+  color: var(--mossy-grey-9);
 }
 
 /* ===== SCROLLBAR ===== */
@@ -34,7 +34,7 @@
 }
 
 .scrollbar::-webkit-scrollbar-track {
-  background: var(--mossy-grey-4);
+  background: var(--mossy-grey-9);
 }
 
 .scrollbar::-webkit-scrollbar-thumb {
@@ -43,7 +43,7 @@
 }
 
 .scrollbar::-webkit-scrollbar-thumb:hover {
-  background: var(--mossy-green-4);
+  background: var(--mossy-green-6);
 }
 
 /* ===== SMOOTH SCROLL ===== */

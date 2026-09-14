@@ -12,13 +12,12 @@
   left: 0;
   bottom: 0;
   width: var(--sidebar-width);
-  background-color: var(--mossy-green-2);
+  background-color: var(--mossy-green-1);
   box-shadow: var(--shadow-md);
   z-index: var(--z-fixed);
   display: flex;
   flex-direction: column;
   margin: 0;
-  padding: 0;
   overflow-y: auto;
 }
 
@@ -28,7 +27,7 @@
   align-items: center;
   gap: 0.5rem;
   padding: 1rem;
-  color: var(--mossy-grey-5);
+  color: var(--mossy-grey-9);
   font-family: var(--font-heading);
   font-weight: var(--font-weight-black);
   font-size: 1.2rem;
@@ -36,7 +35,7 @@
 }
 
 .sidebar-brand:hover {
-  background-color: var(--mossy-green-3);
+  background-color: var(--mossy-green-2);
 }
 
 /* Nav list */
@@ -56,7 +55,7 @@
   align-items: center;
   gap: 0.75rem;
   padding: 10px 18px;
-  color: var(--mossy-grey-5);
+  color: var(--mossy-grey-9);
   text-decoration: none;
   transition: background-color var(--transition-fast);
   font-family: var(--font-body);
@@ -66,13 +65,13 @@
 
 .sidebar-link:hover,
 .sidebar-link:focus {
-  background-color: var(--mossy-green-3);
-  color: var(--mossy-grey-5);
+  background-color: var(--mossy-green-2);
+  color: var(--mossy-grey-9);
 }
 
 /* Active state */
 .sidebar-link.active {
-  background-color: var(--mossy-green-3);
+  background-color: var(--mossy-green-2);
   font-weight: var(--font-weight-bold);
 }
 
@@ -90,7 +89,7 @@
 /* Optional footer area (settings, account, ...) */
 .sidebar-footer {
   padding: 10px 18px;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid var(--mossy-green-2);
 }
 
 /* ===== LAYOUT HELPER ===== */

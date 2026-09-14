@@ -5,28 +5,76 @@
 :root {
   /* ===== COLORS ===== */
   /* Raw palette */
-  --mossy-brown-1: #2c1304;
-  --mossy-brown-3: #88451f;
-  --mossy-brown-4: #ad7956;
-  --mossy-brown-5: #e9c495;
-
-  --mossy-grey-2: #8d837a;
-  --mossy-grey-3: #aca39c;
-  --mossy-grey-4: #e5dcd4;
-  --mossy-grey-5: #f5f2ee;
-
-  --mossy-salmon-2: #ff5643;
-  --mossy-salmon-3: #ff8c6e;
-  --mossy-salmon-4: #ffab87;
+  /* --mossy-orange-0: #2c1304;
+  --mossy-brown-2: #7d4828;
+  --mossy-brown-3: #986446;
+  --mossy-brown-4: #bb8d6d;
+  --mossy-brown-5: #e4c39c;
 
   --mossy-green-1: #1f3204;
-  --mossy-green-2: #39470d;
-  --mossy-green-3: #646b1f;
-  --mossy-green-4: #8d923d;
-  --mossy-green-5: #b2b170;
+  --mossy-green-3: #526026;
+  --mossy-green-3: #899041;
+  --mossy-green-6: #b3b879;
+  --mossy-green-9: #d8dba6;
 
-  --mossy-blue-3: #68a599;
+  --mossy-blue-1: #04493b;
+  --mossy-blue-2: #3e766b;
+  --mossy-blue-3: #3d9785;
   --mossy-blue-4: #83b5ac;
+  --mossy-blue-5: #c2dfd6;
+
+  --mossy-grey-1: #38332f;
+  --mossy-grey-2: #746c65;
+  --mossy-grey-6: #a49b94;
+  --mossy-grey-9: #e5dcd4;
+  --mossy-grey-9: #f5f2ee;
+
+  --mossy-orange-0: #7b2413;
+  --mossy-orange-2: #bb523a;
+  --mossy-orange-3: #cf522c;
+  --mossy-orange-4: #f0a487;
+  --mossy-orange-5: #f0a487; */
+
+  --mossy-orange-0: #390701;
+  --mossy-orange-1: #6a1100;
+  --mossy-orange-3: #9a310b;
+  --mossy-orange-4: #bd4718;
+  --mossy-orange-5: #d05722;
+  --mossy-orange-6: #ef853a;
+  --mossy-orange-7: #f5ac79;
+  --mossy-orange-9: #f3d8c5;
+
+  --mossy-yellow-1: #a56100;
+  --mossy-yellow-4: #d98b03;
+  --mossy-yellow-5: #e59f26;
+  --mossy-yellow-6: #ffc241;
+  --mossy-yellow-7: #ffde69;
+  --mossy-yellow-8: #ffe999;
+  --mossy-yellow-9: #f2e6b9;
+
+  --mossy-green-0: #023f22;
+  --mossy-green-1: #1d7142;
+  --mossy-green-2: #348452;
+  --mossy-green-4: #5f8533;
+  --mossy-green-5: #7e9c37;
+  --mossy-green-7: #d8dd8a;
+  --mossy-green-9: #e7e9be;
+
+  --mossy-blue-1: #096f85;
+  --mossy-blue-2: #1694a3;
+  --mossy-blue-4: #33a7a0;
+  --mossy-blue-5: #44bca7;
+  --mossy-blue-6: #7bd6bd;
+  --mossy-blue-7: #a4e1d0;
+  --mossy-blue-9: #d1e3dd;
+
+  --mossy-grey-0: #362d25;
+  --mossy-grey-1: #6d6258;
+  --mossy-grey-4: #9f938a;
+  --mossy-grey-6: #d1cac4;
+  --mossy-grey-7: #e0d9d5;
+  --mossy-grey-8: #f0edea;
+  --mossy-grey-9: #f5f2ee;
 
   /* ===== DIMENSIONS ===== */
   --sidebar-width: 220px;

@@ -15,89 +15,92 @@
   font-size: 1rem;
   line-height: 1.5;
   border-radius: var(--border-radius);
-  border: 2px solid var(--mossy-brown-1);
-  background-color: var(--mossy-grey-4);
-  color: var(--mossy-brown-1);
+  border: 2px solid var(--mossy-grey-7);
+  background-color: var(--mossy-grey-7);
+  color: var(--mossy-orange-0);
   transition: all var(--transition-fast);
 }
 
 /* Primary variant */
 .button-primary {
-  background-color: var(--mossy-green-3);
-  border-color: var(--mossy-green-3);
-  color: var(--mossy-grey-5);
+  background-color: var(--mossy-green-4);
+  border-color: var(--mossy-green-4);
+  color: var(--mossy-grey-9);
 }
 
 /* Secondary variant (default) */
 .button-secondary {
   background-color: transparent;
-  border-color: var(--mossy-green-5);
-  color: var(--mossy-brown-1);
+  border-color: var(--mossy-green-4);
+  color: var(--mossy-green-1);
 }
 
 /* Success variant */
 .button-success {
-  background-color: var(--mossy-blue-3);
-  border-color: var(--mossy-blue-3);
-  color: white;
+  background-color: var(--mossy-blue-4);
+  border-color: var(--mossy-blue-4);
+  color: var(--mossy-grey-9);
 }
 
 /* Danger variant */
 .button-danger {
-  background-color: var(--mossy-salmon-2);
-  border-color: var(--mossy-salmon-2);
-  color: white;
+  background-color: var(--mossy-orange-4);
+  border-color: var(--mossy-orange-4);
+  color: var(--mossy-grey-9);
 }
 
 /* Warning variant */
 .button-warning {
-  background-color: var(--mossy-salmon-3);
-  border-color: var(--mossy-salmon-3);
-  color: var(--mossy-brown-1);
+  background-color: var(--mossy-yellow-4);
+  border-color: var(--mossy-yellow-4);
+  color: var(--mossy-grey-9);
 }
 
 /* Hover states */
 .button:hover {
-  background-color: var(--mossy-green-3);
-  border-color: var(--mossy-green-3);
-  color: var(--mossy-grey-5);
+  background-color: var(--mossy-grey-6);
+  border-color: var(--mossy-grey-6);
+  color: var(--mossy-orange-0);
   transform: translateY(-1px);
   box-shadow: var(--shadow-sm);
 }
 
 .button-primary:hover {
-  background-color: var(--mossy-green-4);
-  border-color: var(--mossy-green-4);
-  color: var(--mossy-grey-5);
+  background-color: var(--mossy-green-5);
+  border-color: var(--mossy-green-5);
+  color: var(--mossy-grey-9);
 }
 
 .button-secondary:hover {
-  background-color: var(--mossy-salmon-4);
-  border-color: var(--mossy-green-5);
-  color: var(--mossy-brown-1);
+  background-color: var(--mossy-green-9);
+  border-color: var(--mossy-green-9);
+  color: var(--mossy-green-1);
 }
 
 .button-success:hover {
-  background-color: var(--mossy-blue-4);
-  border-color: var(--mossy-blue-4);
+  background-color: var(--mossy-blue-5);
+  border-color: var(--mossy-blue-5);
+  color: var(--mossy-grey-9);
 }
 
 .button-danger:hover {
-  background-color: var(--mossy-salmon-3);
-  border-color: var(--mossy-salmon-3);
+  background-color: var(--mossy-orange-5);
+  border-color: var(--mossy-orange-5);
+  color: var(--mossy-grey-9);
 }
 
 .button-warning:hover {
-  background-color: #ec971f;
-  border-color: #ec971f;
+  background-color: var(--mossy-yellow-5);
+  border-color: var(--mossy-yellow-5);
+  color: var(--mossy-grey-9);
 }
 
 /* Disabled states */
 .button[disabled],
 .button[disabled]:hover {
-  background-color: var(--mossy-grey-3);
-  border-color: var(--mossy-grey-2);
-  color: var(--mossy-grey-4);
+  background-color: var(--mossy-grey-5);
+  border-color: var(--mossy-grey-5);
+  color: var(--mossy-grey-9);
   cursor: not-allowed;
   transform: none;
   box-shadow: none;
@@ -106,11 +109,11 @@
 /* Focus states */
 .button:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(135, 145, 71, 0.4);
+  box-shadow: 0 0 0 0.2rem var(--mossy-grey-3);
 }
 
 .button-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(135, 145, 71, 0.5);
+  box-shadow: 0 0 0 0.2rem var(--mossy-grey-3);
 }
 
 /* Sizes */
@@ -140,7 +143,7 @@
 .button-outline:hover,
 .button-outline-primary:hover {
   background: var(--mossy-green-3);
-  color: var(--mossy-grey-5);
+  color: var(--mossy-grey-9);
 }
 
 /* Link button */
@@ -155,7 +158,7 @@
 .button-link:hover {
   background: none;
   border: none;
-  color: var(--mossy-green-4);
+  color: var(--mossy-green-6);
   transform: none;
   box-shadow: none;
 }

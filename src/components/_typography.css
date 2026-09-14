@@ -10,7 +10,7 @@
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: var(--font-heading);
   font-weight: var(--font-weight-black);
-  color: var(--mossy-brown-1);
+  color: var(--mossy-orange-0);
   margin-top: 0;
   margin-bottom: 0.5rem;
   line-height: 1.2;
@@ -31,13 +31,13 @@
 }
 
 .link:hover {
-  color: var(--mossy-green-4);
+  color: var(--mossy-green-6);
   text-decoration: underline;
 }
 
 .link:focus {
   outline: 0;
-  color: var(--mossy-green-5);
+  color: var(--mossy-green-9);
 }
 
 /* ===== DIVIDER ===== */
@@ -52,7 +52,7 @@
   margin: 1.5rem 0;
   padding: 0.5rem 1.5rem;
   border-left: 4px solid var(--mossy-green-3);
-  background: var(--mossy-grey-4);
+  background: var(--mossy-grey-9);
   border-radius: 0 var(--border-radius) var(--border-radius) 0;
 }
 
@@ -125,7 +125,7 @@
 
 /* ===== MARK ===== */
 .mark {
-  background-color: var(--mossy-salmon-4);
+  background-color: var(--mossy-orange-4);
   padding: 0.1rem 0.3rem;
   border-radius: var(--border-radius);
 }
@@ -138,8 +138,8 @@
 
 /* ===== KBD ===== */
 .kbd {
-  background: var(--mossy-brown-1);
-  color: var(--mossy-grey-5);
+  background: var(--mossy-orange-0);
+  color: var(--mossy-grey-9);
   padding: 0.2rem 0.6rem;
   border-radius: var(--border-radius);
   font-size: 0.875rem;

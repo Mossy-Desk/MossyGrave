@@ -13,39 +13,39 @@
 }
 
 .alert-primary {
-  background-color: rgba(135, 145, 71, 0.15);
-  border-color: var(--mossy-green-3);
-  color: var(--mossy-green-5);
+  background-color: var(--mossy-green-9);
+  border-color: var(--mossy-green-1);
+  color: var(--mossy-green-0);
 }
 
 .alert-secondary {
-  background-color: var(--mossy-grey-4);
-  border-color: var(--mossy-salmon-3);
-  color: var(--mossy-green-3);
+  background-color: var(--mossy-grey-7);
+  border-color: var(--mossy-grey-1);
+  color: var(--mossy-grey-0);
 }
 
 .alert-success {
-  background-color: rgba(92, 184, 92, 0.15);
-  border-color: var(--mossy-blue-3);
-  color: #3d8b3d;
+  background-color: var(--mossy-blue-9);
+  border-color: var(--mossy-blue-1);
+  color: var(--mossy-blue-0);
 }
 
 .alert-danger {
-  background-color: rgba(217, 83, 79, 0.15);
-  border-color: var(--mossy-salmon-2);
-  color: #a94442;
+  background-color: var(--mossy-orange-9);
+  border-color: var(--mossy-orange-1);
+  color: var(--mossy-orange-0);
 }
 
 .alert-warning {
-  background-color: rgba(240, 173, 78, 0.15);
-  border-color: var(--mossy-salmon-3);
-  color: #8a6d3b;
+  background-color: var(--mossy-yellow-9);
+  border-color: var(--mossy-yellow-1);
+  color: var(--mossy-orange-0);
 }
 
 .alert-info {
-  background-color: rgba(91, 192, 222, 0.15);
-  border-color: var(--mossy-blue-3);
-  color: #31708f;
+  background-color: var(--mossy-grey-8);
+  border-color: var(--mossy-grey-4);
+  color: var(--mossy-grey-0);
 }
 
 /* Alert with icon (add your own icon element as first child) */

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mossy Grave - Test</title>
+
+    <!-- Importe ta lib depuis dist/ (le build) -->
+    <link rel="stylesheet" href="../dist/mossy-grave.css">
+
+    <!-- OU depuis src/ (pour tester sans build) -->
+    <!-- <link rel="stylesheet" href="../src/mossy-grave.css"> -->
+
+    <style>
+        /* Layout de la page — pas d'utilitaires, du CSS natif direct */
+        main { max-width: 700px; }
+        .btn-row { display: flex; gap: 0.5rem; margin: 1rem 0; }
+        .card-row { display: flex; gap: 1.5rem; }
+        .card-row .card { flex: 1; }
+    </style>
+</head>
+<body class="app has-sidebar selection scrollbar">
+    <!-- ===== CONTENU ===== -->
+        <!-- ===== BOUTONS ===== -->
+        <h2 class="h2">Boutons</h2>
+        <div class="btn-row">
+            <button class="button">Default</button>
+            <button class="button button-primary">Primary</button>
+            <button class="button button-secondary">Secondary</button>
+            <button class="button button-success">Success</button>
+            <button class="button button-danger">Danger</button>
+            <button class="button button-warning">Warning</button>
+            <button class="button" disabled>Disabled</button>
+        </div>
+
+        <!-- ===== CARDS ===== -->
+        <h2 class="h2">Cards</h2>
+        <div class="card-row">
+            <div class="card">
+                <h3 class="h3">Card 1</h3>
+                <p>Une carte simple avec du contenu.</p>
+                <button class="button button-primary">Action</button>
+            </div>
+
+            <div class="card card-primary">
+                <h3 class="h3">Card 2</h3>
+                <p>Carte primary</p>
+                <button class="button">Action</button>
+            </div>
+
+            <div class="card card-success">
+                <h3 class="h3">Card 3</h3>
+                <p>Carte success</p>
+                <button class="button">Action</button>
+            </div>
+        </div>
+        <div class="card-row">
+            <div class="card card-danger">
+                <h3 class="h3">Card 1</h3>
+                <p>Carte danger</p>
+                <button class="button button-primary">Action</button>
+            </div>
+
+            <div class="card card-warning">
+                <h3 class="h3">Card 2</h3>
+                <p>Carte warning</p>
+                <button class="button">Action</button>
+            </div>
+
+            <div class="card card-info">
+                <h3 class="h3">Card 2</h3>
+                <p>Carte info</p>
+                <button class="button">Action</button>
+            </div>
+        </div>
+
+        <!-- ===== ALERTS ===== -->
+        <h2 class="h2">Alertes</h2>
+        <div class="alert">
+            Alerte toute simple
+        </div>
+        <div class="alert alert-primary">
+            Alerte primary
+        </div>
+        <div class="alert alert-secondary">
+            Alerte secondary
+        </div>
+        <div class="alert alert-success">
+            Alerte success
+        </div>
+        <div class="alert alert-danger">
+            Alerte danger
+        </div>
+        <div class="alert alert-warning">
+            Alerte warning
+        </div>
+        <div class="alert alert-info">
+            Alerte info
+        </div>
+
+    <script>
+        // Toggle .active sur .modal-overlay — toute l'animation est en CSS
+        const overlay = document.getElementById('demo-modal');
+        document.getElementById('modal-trigger').addEventListener('click', () => {
+            overlay.classList.add('active');
+        });
+        overlay.addEventListener('click', (e) => {
+            if (e.target === overlay || e.target.closest('[data-modal-close]')) {
+                overlay.classList.remove('active');
+            }
+        });
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') overlay.classList.remove('active');
+        });
+    </script>
+</body>
+</html>
