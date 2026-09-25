@@ -19,27 +19,28 @@
         .card-row .card { flex: 1; }
     </style>
 </head>
-<body class="app has-sidebar selection scrollbar">
+<body class="app selection scrollbar">
 
-    <!-- ===== SIDEBAR ===== -->
-    <aside class="sidebar">
-        <a href="#" class="sidebar-brand">
-            <span class="sidebar-icon"></span>
-            Mossy
-        </a>
-        <ul class="sidebar-nav">
-            <li><a href="#" class="sidebar-link active"><span class="sidebar-icon"></span> Accueil</a></li>
-            <li><a href="#" class="sidebar-link"><span class="sidebar-icon"></span> Produits</a></li>
-            <li><a href="#" class="sidebar-link"><span class="sidebar-icon"></span> À propos</a></li>
-            <li><a href="#" class="sidebar-link"><span class="sidebar-icon"></span> Contact</a></li>
-        </ul>
-        <div class="sidebar-footer">
-            <a href="#" class="sidebar-link"><span class="sidebar-icon"></span> Réglages</a>
-        </div>
-    </aside>
+    <div class="layout">
+        <!-- ===== SIDEBAR ===== -->
+        <aside class="sidebar">
+            <a href="#" class="sidebar-brand">
+                <span class="sidebar-icon"></span>
+                Mossy
+            </a>
+            <ul class="sidebar-nav">
+                <li><a href="#" class="sidebar-link active"><span class="sidebar-icon"></span> Accueil</a></li>
+                <li><a href="#" class="sidebar-link"><span class="sidebar-icon"></span> Produits</a></li>
+                <li><a href="#" class="sidebar-link"><span class="sidebar-icon"></span> À propos</a></li>
+                <li><a href="#" class="sidebar-link"><span class="sidebar-icon"></span> Contact</a></li>
+            </ul>
+            <div class="sidebar-footer">
+                <a href="#" class="sidebar-link"><span class="sidebar-icon"></span> Réglages</a>
+            </div>
+        </aside>
 
-    <!-- ===== CONTENU ===== -->
-    <main>
+        <!-- ===== CONTENU ===== -->
+        <main class="layout-main">
         <h1 class="h1">Mossy Grave</h1>
         <p class="lead">Cool ass Mossy lib</p>
         <hr class="divider">
@@ -83,7 +84,8 @@
         <div class="btn-row">
             <button class="button button-primary" id="modal-trigger">Ouvrir la modale</button>
         </div>
-    </main>
+        </main>
+    </div>
 
     <!-- La modale reste dans le DOM, cachée par défaut (pas de .active) -->
     <div class="modal-overlay" id="demo-modal">

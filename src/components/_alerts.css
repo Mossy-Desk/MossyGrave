@@ -60,7 +60,7 @@
   padding-right: 3rem;
 }
 
-.alert-dismissible .close {
+.alert-close {
   position: absolute;
   top: 0;
   right: 0;
@@ -75,7 +75,7 @@
   transition: opacity var(--transition-fast);
 }
 
-.alert-dismissible .close:hover {
+.alert-close:hover {
   opacity: 1;
   background: none;
   border: none;

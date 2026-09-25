@@ -2,19 +2,19 @@
    SIDEBAR
    ============================================ */
 
-/* Fixed vertical sidebar for a desktop app window.
-   No submenus, no responsive burger — this is a single
-   fixed-width rail, not a collapsible web navbar. */
+/* Fixed-width vertical rail for a desktop app window.
+   No submenus, no responsive burger. Sits as a flex child next
+   to a .layout-main (see components/_layout.css) — sticky rather
+   than fixed, so it stays put on scroll without anyone else
+   needing to know it's there. */
 
 .sidebar {
-  position: fixed;
+  position: sticky;
   top: 0;
-  left: 0;
-  bottom: 0;
+  flex-shrink: 0;
   width: var(--sidebar-width);
   background-color: var(--mossy-green-1);
   box-shadow: var(--shadow-md);
-  z-index: var(--z-fixed);
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -90,15 +90,4 @@
 .sidebar-footer {
   padding: 10px 18px;
   border-top: 1px solid var(--mossy-green-2);
-}
-
-/* ===== LAYOUT HELPER ===== */
-body.has-sidebar {
-  margin: 0;
-  padding-left: var(--sidebar-width);
-  padding-top: var(--content-spacing);
-  padding-right: var(--content-spacing);
-  padding-bottom: var(--content-spacing);
-  min-height: 100vh;
-  box-sizing: border-box;
 }

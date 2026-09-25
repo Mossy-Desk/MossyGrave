@@ -46,12 +46,12 @@ mossy-grave/
 │   │   ├── _buttons.css
 │   │   ├── _forms.css
 │   │   ├── _sidebar.css
+│   │   ├── _layout.css
 │   │   ├── _cards.css
 │   │   ├── _typography.css
 │   │   ├── _code.css
 │   │   ├── _table.css
 │   │   ├── _image.css
-│   │   ├── _badges.css
 │   │   ├── _alerts.css
 │   │   └── _modals.css
 │   └── mossy-grave.css       ← Main entry point (with @imports, no-build dev mode)
